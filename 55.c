@@ -7,7 +7,7 @@ int main()
     res=n*m;
     if(res%2==0)
     {
-        printf("%d is even",res);
+       printf("%d is even",res);
     }
     else
     {
