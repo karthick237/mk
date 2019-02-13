@@ -6,7 +6,7 @@ int main()
    scanf("%d %d",&x,&y);
    if(a!=0)
    {
-       t=x;
+      t=x;
        x=y;
        y=t;
    }
