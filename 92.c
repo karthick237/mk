@@ -3,6 +3,7 @@
 int main(void) 
 {
 	int n,array[50],i,sum=0;
+	printf("enter the number");
 	scanf("\n%d",&n);
 	for(i=0;i<n;i++)
 	{
