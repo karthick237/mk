@@ -3,6 +3,7 @@
 int main(void) 
 {
 	int num,i;
+	printf("number");
 	scanf("%d",&num);
 	int num1,rem;
 	while(num!=1)
