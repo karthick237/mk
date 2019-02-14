@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-char ch;
-scanf("%c",&ch);
-printf("%d",&ch);
+char g;
+scanf("%c",&g);
+printf("%d",&g);
 return 0;
 }
