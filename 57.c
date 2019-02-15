@@ -1,15 +1,17 @@
-#include <stdio.h>
-#include<string.h>
-int main()
+#include<stdio.h>
+void main()
 {
-   int x,y,t;
-   scanf("%d %d",&x,&y);
-   if(a!=0)
-   {
-      t=x;
-       x=y;
-       y=t;
+int a[10],i,n,k=0,m;
+scanf("%d%d",&n,&m);
+for(i=0;i<n;i++)
+{
+   scanf("%d",&a[i]);
+}
+ for(i=0;i<n;i++)
+  {
+   if(a[i]==m)
+   k++;
    }
-   printf("%d %d",x,y);
-    return 0;
+   printf("%d",k);
+   getch();
 }
