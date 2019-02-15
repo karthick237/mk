@@ -1,11 +1,25 @@
-#include<stdio.h>          
-int main()
+#include<stdio.h>
+void main()
 {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    a=a^b;                                
-    b=a^b;                                   
-    a=a^b;                                   
-    printf("a:%d\nb:%d",a,b);
-    return 0;
+   int a[10],i,n,k=0,m;
+   scanf("%d%d",&n,&m);
+   for(i=0;i<n;i++)
+    {
+      scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+      if(a[i]==m)
+      k++;
+    }
+    if(k>0)
+    {
+    printf("yes");
+    }
+    else
+    {
+     printf("no");
+    }
+    getch();
 }
+
