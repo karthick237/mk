@@ -13,7 +13,7 @@ printf("%s",a);
 }
 else if(c>d)
 {
-printf("%s",b);
+printf("%s",a);
 }
 else
 {
