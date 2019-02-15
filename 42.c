@@ -2,22 +2,12 @@
 #include<string.h>
 int main()
 {
-char a[100],b[100];
-scanf("%s %s",a,b);
-int c,d;
-c=strlen(a);
-d=strlen(b);
-if(c==d)
+char a[100],b;
+scanf("%s %d",a,&b);
+int i;
+for(i=1;i<=b;i++)
 {
-printf("%s",a);
-}
-else if(c>d)
-{
-printf("%s",a);
-}
-else
-{
-printf("%s",b);
+ printf("%s\n",a);
 }
 return 0;
 }
